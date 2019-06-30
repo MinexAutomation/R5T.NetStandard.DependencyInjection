@@ -1,0 +1,2 @@
+# R5T.NetStandard.DependencyInjection
+A library for dependency-injection related functionality.
