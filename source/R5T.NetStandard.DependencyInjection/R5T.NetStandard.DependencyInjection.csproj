@@ -4,4 +4,10 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.NetStandard.Configuration\source\R5T.NetStandard.Configuration\R5T.NetStandard.Configuration.csproj" />
+    <ProjectReference Include="..\..\..\R5T.NetStandard.DependencyInjection.Types\source\R5T.NetStandard.DependencyInjection.Types\R5T.NetStandard.DependencyInjection.Types.csproj" />
+    <ProjectReference Include="..\..\..\R5T.NetStandard.Logging.Types\source\R5T.NetStandard.Logging.Types\R5T.NetStandard.Logging.Types.csproj" />
+    <ProjectReference Include="..\..\..\R5T.NetStandard.Types\source\R5T.NetStandard.Types\R5T.NetStandard.Types.csproj" />
+  </ItemGroup>
 </Project>
